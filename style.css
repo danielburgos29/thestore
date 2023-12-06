@@ -1,0 +1,149 @@
+/* Establecer el color de fondo del cuerpo de la página */
+body {
+    background-color: #f3f3f5;
+  }
+  
+  /* Cambiar el color del texto de los encabezados h1 */
+  h1 {
+    color: #333;
+  }
+  
+  /* Establecer un borde en los elementos con la clase "boton" */
+  .boton {
+    border: 1px solid #0074d9;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: Times New Roman, sans-serif; /* Establece la fuente y las fuentes de respaldo */
+  }
+  #menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu li a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #0074D9; /* Cambia el color de las letras a azul (#0074D9) */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    font-size: 16px; /* Establece el tamaño de la fuente a 16px */
+    font-family: Times New Roman, sans-serif; /* Establece la fuente y las fuentes de respaldo */
+}
+
+#menu li a:hover {
+    color: #FF5733; /* Cambia el color de las letras a naranja (#FF5733) al pasar el mouse sobre los enlaces */
+}
+
+  
+  .alinear-derecha {
+    text-align: right; /* Alinea los elementos a la derecha */
+  }
+  .contenedor {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    border: 0px solid #ccc;
+    padding: 20px;
+  }
+  
+  .campo {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .campo label {
+    display: block;
+    font-weight: bold;
+    border-radius: 5px; /* Redondea los bordes de las etiquetas */
+    background-color: #f0f0f0; /* Agrega un fondo de color a las etiquetas para resaltar el efecto */
+    padding: 5px; /* Añade espacio interior para que se vea el efecto */
+    font-family: Times New Roman, sans-serif; /* Establece la fuente y las fuentes de respaldo */
+    font-size: 20px; /* Establece el tamaño de la fuente a 16px */
+  }
+  
+  .campo input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Redondea los bordes de los inputs */
+    padding: 5px;
+  }
+  #miBoton {
+    background-color: #0074D9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#miBoton:hover {
+    background-color: rgb(255, 60, 0);
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#product-heading {
+    color: red; /* Cambia 'red' al color que desees para el texto */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: Times New Roman, sans-serif; /* Establece la fuente y las fuentes de respaldo */
+    font-size: 20px; /* Establece el tamaño de la fuente a 16px */
+}
+.navigation li a {
+    color: red; /* Cambia 'red' al color que desees para los enlaces */
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+    /* Agrega otros estilos según sea necesario */
+}
+.label-style {
+    color:black; /* Cambia 'blue' al color que desees para las etiquetas */
+    /* Agrega otros estilos según sea necesario */
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url();
+  background-size: cover;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+#productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.producto {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

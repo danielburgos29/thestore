@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>New Product</title>
+</head>
+<body>
+    <div class="center">
+    </div>
+    <ul id="menu" class="alinear-derecha navigation">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <header>
+        <img src="logoApp.png">
+    </header>
+    <main>
+        <div class="contenedor">
+            <h1 id="product-heading">Create a New Product</h1>
+            <form id="newProductForm" action="nuevo producto.html" method="post" onsubmit="return validateForm()">
+                <div class="campo">
+                    <label for="name" class="label-style">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="campo">
+                    <label for="price" class="label-style">Price:</label>
+                    <input type="number" id="price" name="price" step="0.01" required>
+                </div>
+                <div class="campo">
+                    <label for="inventory" class="label-style">Inventory:</label>
+                    <input type="number" id="inventory" name="inventory" required>
+                </div>
+                <!-- Agregamos el botón de screar el producto -->
+                <button id="miBoton">Create Product</button>
+            </form>
+        </div>
+    </main>
+    <!-- Incluimos el script.js después de la declaración del formulario -->
+    <script src="script.js"></script>
+</body>
+</html>
